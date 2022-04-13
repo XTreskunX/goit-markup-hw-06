@@ -1,1 +1,1 @@
-https://xtreskunx.github.io/goit-markup-hw-05/
+https://xtreskunx.github.io/goit-markup-hw-06/
