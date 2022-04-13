@@ -685,7 +685,7 @@ img {
   padding: 40px;
 }
 
-.moda-close-btn {
+.modal-close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -699,9 +699,10 @@ img {
   background-color: transparent;
   padding: 0;
   cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.moda-close-btn:hover,
-.moda-close-btn:focus {
+.modal-close-btn:hover,
+.modal-close-btn:focus {
   border-color: #2196f3;
   fill: #2196f3;
 }
@@ -711,6 +712,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-field {
@@ -737,7 +739,7 @@ img {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: border-color 250ms linear;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-input:focus, 
