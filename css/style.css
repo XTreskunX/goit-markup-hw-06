@@ -748,13 +748,13 @@ img {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
-
 .contact-form-icon {
   position: absolute;
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
   display: block;
+  transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-message {
@@ -817,11 +817,15 @@ img {
   height: 50px;
   border: 1px solid var(--logo-color);
   border-radius: 4px;
-  background-color: #2196F3;
+  background-color:rgba(33, 150, 243, 1);;
   color: rgba(255, 255, 255, 1);
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.06em;
+}
+.contact-form-submit-btn:hover,
+.contact-form-submit-btn:focus {
+  background-color: rgba(24, 140, 232, 1);;
 }
 .checkbox_link {
   color: #2196f3;
